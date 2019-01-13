@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.overai.weatherx.Weatherx">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/refr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刷新"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/favor"
+        android:text="设为关注"
+        android:textSize="25dp"
+        android:layout_marginLeft="100dp"/>
+</LinearLayout>
+
+
+        <TextView
+            android:id="@+id/date1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/title_city"
+                android:layout_height="100dp"
+                android:layout_width="wrap_content"
+                android:textSize="40dp"
+                android:layout_centerInParent="true"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/wendu"
+                android:textSize="40dp"
+                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/shidu"
+            android:textSize="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/pm252"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/title_update_time"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
